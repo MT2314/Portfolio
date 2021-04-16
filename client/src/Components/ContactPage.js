@@ -11,7 +11,7 @@ function ContactPage(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
       >
-      {props.show&&<Button variant="danger" style = {{width:"10%", marginLeft:"95%"}} onClick={props.onHide}>Close</Button>}
+      {props.show&&<Button variant="danger" style = {{width:"5%", marginLeft:"95%"}} onClick={props.onHide}>X</Button>}
       <Modal.Body>
         <section className="contact-section ml-1 mr-1">
           {/* Grid row */}
