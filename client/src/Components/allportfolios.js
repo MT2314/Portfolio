@@ -37,8 +37,7 @@ const portfolios = [
         icon2: 'Repo',
         image: EmployeeManagement,
         title: 'Employee Management Systems',
-        desription: "A Date-Night Planner application made using HTML, CSS, JavaScript, Mapbox/Google Maps API."
-    },
+        desription: "Employee Management System. Allow the user to be able to add employees and jobs to a database. Make teams outs of the employees and assign jobs to them. Track your crews and job completion" },
     {
         id: 3,
         category: 'MERN',

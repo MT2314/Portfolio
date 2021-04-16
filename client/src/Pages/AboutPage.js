@@ -3,10 +3,8 @@ import Tittle from '../Components/Tittle'
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
-import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import gamedev from '../img/game-dev.svg';
-import { icons } from 'react-icons/lib';
 
 
 function AboutPage() {
