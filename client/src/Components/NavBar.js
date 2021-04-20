@@ -1,7 +1,7 @@
 import React from 'react'
 import cartoonMe from '../img/cartoonMe.jpg';
 import {NavLink} from 'react-router-dom';
-import photo from "../img/mike.jpg"
+import photo from "../img/cartoonMe.jpg"
 
 function Navbar() {
     return (

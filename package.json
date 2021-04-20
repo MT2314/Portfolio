@@ -27,6 +27,7 @@
     "concurrently": "^6.0.2"
   },
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   }
