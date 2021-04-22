@@ -151,17 +151,6 @@ const portfolios = [
     {
         id: 13,
         category: 'Javascript',
-        link1: "https://mt2314.github.io/Dynamic-Day-Planner/",
-        link2: 'https://github.com/MT2314/Dynamic-Day-Planner',
-        icon1: 'Live',
-        icon2: 'Repo',
-        image: DayPlanner,
-        title: 'Day Planner',
-        desription: "Dynamically Built Daily Planner Using Moment to Keep Date, and Color Coded Time Slots. Saves to Local Storage and Time Blocks are Repopulated on Refresh"
-    },
-    {
-        id: 14,
-        category: 'Javascript',
         link1: 'https://mt2314.github.io/JS-Quiz-Dynamic/',
         link2: "https://github.com/MT2314/JS-Quiz-Dynamic",
         icon1: 'Live',
@@ -171,7 +160,7 @@ const portfolios = [
         desription: "Timed Multiple Choice Coding Quiz Dynamically Updated HTML and CSS using Javascript includes Intervals, Local Storage, Dynamically Created Elements"
     },
     {
-        id: 15,
+        id: 14,
         category: 'Javascript, NodeJs',
         link1: "https://mt2314.github.io/Team_Builder/",
         link2: 'https://github.com/MT2314/Team_Builder',
@@ -180,17 +169,6 @@ const portfolios = [
         image: TeamBuilder,
         title: 'Team Builder',
         desription: "Team Builder applicatiom, prompts the user in CLI to add role specific employees to a team, their role and employee specific details. Exports the dynamically created HTML(team.html)"
-    },
-    {
-        id: 16,
-        category: 'Javascript',
-        link1: "",
-        link2: '',
-        icon1: '',
-        icon2: '',
-        image: RPS,
-        title: 'Rock Paper Scissors',
-        desription: "Rock Paper Scissors game against a computer"
     }
 ]
 

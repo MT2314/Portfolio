@@ -6,6 +6,8 @@ import emailjs from 'emailjs-com'
 
 function ContactPage(props) {
 
+  const [email, sentEmail] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -16,6 +18,8 @@ function ContactPage(props) {
         console.log(error.text);
       });
     e.target.reset();
+    sentEmail(true);
+    setTimeout(function(){ sentEmail(false); }, 2000);
   }
 
   return (
@@ -25,11 +29,11 @@ function ContactPage(props) {
         size="xl"
         aria-labelledby="contained-modal-title-vcenter"
         centered
-      >
-        {props.show && <Button variant="danger" style={{ width: "5%", marginLeft: "95%" }} onClick={props.onHide}>X</Button>}
+        >
         <Modal.Body>
           <section className="contact-section ml-1 mr-1">
             {/* Grid row */}
+        <Button variant="danger"  style={{ textAlign:'center', float:'right', top: '-20px' }} onClick={props.onHide}>X</Button>
             <div className="row">
               {/* Grid column */}
               <div className="col-md-6 mb-5">
@@ -41,14 +45,14 @@ function ContactPage(props) {
                     {/* Grid column */}
                     <div className="col-md-6">
                       <div className="md-form mb-4">
-                        <input type="text" id="contact-name" className="form-control" placeholder="Your name" name="name" />
+                        <input type="text" id="contact-name" className="form-control" placeholder="Your name" name="name" required/>
                       </div>
                     </div>
                     {/* Grid column */}
                     {/* Grid column */}
                     <div className="col-md-6">
                       <div className="md-form mb-0">
-                        <input type="text" id="contact-email" className="form-control" placeholder="Your Email" name="email" />
+                        <input type="text" id="contact-email" className="form-control" placeholder="Your Email" name="email" required/>
                       </div>
                     </div>
                   </div>
@@ -57,7 +61,7 @@ function ContactPage(props) {
                     {/* Grid column */}
                     <div className="col-md-12">
                       <div className="md-form mb-0">
-                        <input type="text" id="contact-Subject" className="form-control" placeholder="Subject" name="subject" />
+                        <input type="text" id="contact-Subject" className="form-control" placeholder="Subject" name="subject"/>
                       </div>
                     </div>
                   </div>
@@ -66,12 +70,13 @@ function ContactPage(props) {
                     {/* Grid column */}
                     <div className="col-md-12">
                       <div className="md-form">
-                        <textarea id="contact-message" className="form-control md-textarea" rows={3} placeholder="Your Message" defaultValue={""} name="message" />
+                        <textarea id="contact-message" className="form-control md-textarea" rows={3} placeholder="Your Message" defaultValue={""} name="message" required/>
                       </div>
                     </div>
                   </div>
                   <div className="text-center text-md-left">
                     <input type="submit" className="btn btn-primary btn-md" value = "Send" />
+                    {email&&<span style = {{marginLeft:'30%'}}>Your email has been sent!</span>}
                   </div>
                 </form>
               </div>

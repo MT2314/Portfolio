@@ -11,20 +11,27 @@
             object-fit:contain;
             height: 80%;
         }
-        .icon-holder{
-            font-size: 1.5em;
-            margin-top: 1rem;
-            margin-left: 25%;
-            .icon{
-               font-size: 2.8rem;
-               color: #526291;
-               transition: all .4s ease-in-out;
-            }
-            .resume:hover{
-                color: blue;
-            }
-        
     }
+
+
+    .icon-holder{
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 10%;
+        .icon{
+           font-size: 2.8rem;
+           color: #526291;
+           transition: all .4s ease-in-out;
+           padding-right: 5%;
+           margin-bottom: 10%;
+
+        }
+        :hover{
+           transition: all .4s ease-in-out;
+           text-decoration: none;
+            color: yellow;
+        }
 
     .about-info{
         margin-left: 2rem;
@@ -42,6 +49,7 @@
             margin-left: 0;
             margin-top: 1rem;
         }
+
     }
     
 }
