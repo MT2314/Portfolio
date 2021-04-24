@@ -14,8 +14,10 @@ function ImageSection() {
             <div className="about-info">
                 <h4>My name is <span> Mike Tkachuk</span> and I am a Junior Web Developer </h4>
                 <p className="about-text">
-                    Designed and developed web applications using a variety of technologies, frame works and libraries. Utilizing APIs, third-party integrations
-                    and databases developing dynamic and responsive applications and web sites.
+                    I have designed and developed web applications using a variety of technologies, frame works and libraries. I am comfortable using
+                    API's, third-party integrations as well as managing both SQL and NoSQL databases.
+                    Trained in the MERN stack with a mobile first approach, I have some experience creating offline ready progressive web applications.
+
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -30,7 +32,7 @@ function ImageSection() {
                         }</p>
                         <p>: Canadian</p>
                         <p>: English, Ukrainian</p>
-                        <p>: Etobicoke, Ontario</p>
+                        <p>: Toronto, Ontario</p>
                     </div>
                 </div>
 

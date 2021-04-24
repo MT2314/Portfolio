@@ -19,18 +19,18 @@ import TeamBuilder from '../img/portImages/TeamBuilder.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'MERN + S3',
+        category: 'MERN',
         link1: 'https://guarded-dusk-24354.herokuapp.com/',
         link2: 'https://github.com/P3TeamTwo/p3',
         icon1: 'Live',
         icon2: 'Repo',
         image: Mindshare,
         title: 'Mindshare',
-        desription: "This application is a smart and interactive journal, where you are given daily questions that allows an algorithm to analyze your responses and display correlations between your mood and your behaviours. "
+        desription: "Mindshare is a smart personal journal, the user is prompted to do a daily self reflection which are converted and analyzed to create a large array of visual and functional tools to assist in personal development"
     },
     {
         id: 2,
-        category: 'Handlebars , MySQL , Node , Express',
+        category: 'Handlebars',
         link1: "https://snowmanagement.herokuapp.com/",
         link2: 'https://github.com/MT2314/snow-removal-mgmt',
         icon1: 'Live',
@@ -51,14 +51,14 @@ const portfolios = [
     },
     {
         id: 4,
-        category: 'Javascript + Materialize',
+        category: 'Javascript',
         link1: "https://mt2314.github.io/Date-Night-Planner/",
         link2: 'https://github.com/MT2314/Date-Night-Planner',
         icon1: 'Live',
         icon2: 'Repo',
         image: DatePlanner,
         title: 'Date Night Planner',
-        desription: "This application allows a user to enter a location and how far they are willing to travel. Based on this information, a list of theatres will be generated and displayed to the page. The user will be able to select a theatre, and a list of movies and their showtimes will be displayed. The user may then select a movie and specific show-time to book their tickets."
+        desription: "This application allows a user to enter a location and how far they are willing to travel. Based on this information, a list of theatres will be generated and displayed on the page. The user will be able to select a theatre, and a list of movies and their showtimes will be displayed. The user may then select a movie and specific show-time to book their tickets."
     },
     {
         id: 5,
@@ -69,18 +69,18 @@ const portfolios = [
         icon2: 'Repo',
         image: taskTracker,
         title: 'Task Tracker',
-        desription: "React Task Tracker, seemlessly and dynamically built task tracker reading and writing to a json file."
+        desription: "Seamless, responsive and dynamic task tracker that reads and writes to a JSON file."
     },
     {
         id: 6,
-        category: 'Handlebars , MySQL , Node , Express',
+        category: 'Javascript',
         link1: "https://burger-ordersystem.herokuapp.com/",
         link2: 'https://github.com/MT2314/Burger-OrderSystem',
         icon1: 'Live',
         icon2: 'Repo',
         image: burgerOrderingSystem,
         title: 'Burger Order System',
-        desription: "A Burger Order Management System. User inputs their order into a form. Input is stored into a SQL database. The webpage is reloaded adding the users burger order onto the webpage using Handle Bars. Application is modelled in MVC. Home-made ORM."
+        desription: "A Burger Order Management System. User inputs their order into a form. Input is stored in a MYSQL database. The webpage is reloaded adding the users burger order onto the webpage using Handle Bars. Application is modelled in MVC. Home-made ORM."
     },
     {
         id: 7,
@@ -91,7 +91,7 @@ const portfolios = [
         icon2: 'Repo',
         image: EmployeeDirectory,
         title: 'Employee Database',
-        desription: "Built using React Seeding Data with Web Api to be used as props to display data Seemless Search and Sort Database"
+        desription: "Built using React Seeding Data with Web Api to be used as props to display data. Seemless Search and Sort Database"
     },
     {
         id: 8,
@@ -106,7 +106,7 @@ const portfolios = [
     },
     {
         id: 9,
-        category: 'Javascript + API',
+        category: 'Javascript',
         link1: 'https://mt2314.github.io/True-Weather-App/',
         link2: "https://github.com/MT2314/True-Weather-App",
         icon1: 'Live',
@@ -128,14 +128,14 @@ const portfolios = [
     },
     {
         id: 11,
-        category: 'Javascript + PWA',
+        category: 'Javascript',
         link1: 'https://exercisetrackandgraph.herokuapp.com/',
         link2: "https://github.com/MT2314/Budget-Tracker",
         icon1: 'Live',
         icon2: 'Repo',
         image: budgetTracker,
         title: 'Budget Tracker',
-        desription: "Offline, syncronizes inputed data to databse when connection is re-established Saves backed up data in IndexDb."
+        desription: "Offline ready exercise tracker. Syncronizes inputed data to databse when connection is re-established Saves backed up data in IndexDb."
     },
     {
         id: 12,
@@ -151,17 +151,6 @@ const portfolios = [
     {
         id: 13,
         category: 'Javascript',
-        link1: 'https://mt2314.github.io/JS-Quiz-Dynamic/',
-        link2: "https://github.com/MT2314/JS-Quiz-Dynamic",
-        icon1: 'Live',
-        icon2: 'Repo',
-        image: JSQuiz,
-        title: 'Javascript Quiz',
-        desription: "Timed Multiple Choice Coding Quiz Dynamically Updated HTML and CSS using Javascript includes Intervals, Local Storage, Dynamically Created Elements"
-    },
-    {
-        id: 14,
-        category: 'Javascript, NodeJs',
         link1: "https://mt2314.github.io/Team_Builder/",
         link2: 'https://github.com/MT2314/Team_Builder',
         icon1: 'Node File',

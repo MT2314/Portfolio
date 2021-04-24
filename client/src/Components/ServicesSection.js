@@ -14,7 +14,7 @@ function ServicesSection({image, title, text,skills }) {
         else if (title === "Functional Programing"){
             return <GiLogicGateNor size = {120}/>
         }
-        else if (title === "Design and Mobile Responsiveness"){
+        else if (title === "Mobile Responsiveness"){
             return <FcMultipleSmartphones size = {120}/>
         }
             
