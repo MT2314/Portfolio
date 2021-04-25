@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import about from '../img/mike.jpg';
 import { ImLibreoffice } from 'react-icons/im';
 // Resume
@@ -6,13 +6,19 @@ import resume from '../assets/MikeTkachuk - Resume.pdf'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 function ImageSection() {
+
     return (
         <div className="ImageSection">
             <div className="img">
                 <img src={about} alt="" />
+                <div className = 'resume'>
+                    <ImLibreoffice size = {40}> 
+                    </ImLibreoffice>
+                    <span>Resume</span>
+                </div>
             </div>
             <div className="about-info">
-                <h4>My name is <span> Mike Tkachuk</span> and I am a Junior Web Developer </h4>
+                <h4 >My name is <span> Mike Tkachuk</span> and I am a Junior Web Developer </h4>
                 <p className="about-text">
                     I have designed and developed web applications using a variety of technologies, frame works and libraries. I am comfortable using
                     API's, third-party integrations as well as managing both SQL and NoSQL databases.

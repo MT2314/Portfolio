@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
+import PortfliosPage from './Pages/Portfolio';
 import { useState } from 'react';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle': ''}`}>
-        <NavBar />
+        <NavBar navToggle ={navClick}/>
       </div>
       <div className="nav-btn" onClick={navClick}>
         <div className="lines-1"></div>

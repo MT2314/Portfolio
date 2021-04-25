@@ -31,13 +31,13 @@ function AboutPage() {
                 text={`Knowledgeable Web Developer, using modern technologies to turn your dream website into reality:`}
                 skills = {["HTML","CSS","NodeJS","Express","MySQL + MongoDB", "React", "Knowledge of API Use"]}
                 />
-                <ServicesSection  image={intelligence} title={'Functional Programing'} 
+                <ServicesSection title={'Functional Programing'} 
                 text={'Trained in functional programming with the aim of minimizing side effects. Employ Testing to make utilities resilient:'}
                 skills = {["Javascript","Asynchronous Js","Data Object - Array & Object Manipulation","Testing (Jest,Mocha)"]}
 
                 />
-                <ServicesSection  image={gamedev} title={'Mobile Responsiveness'} 
-                text={'Skilled at dynamic web design with animated effects, seemless transitions and fast load times:'}
+                <ServicesSection  title={'Mobile Responsiveness'} 
+                text={'Skilled at dynamic web design with animated effects, seemless transitions and fast load times: '}
                 skills = {["CSS","React","Animation","Mobile Responsiveness", "Bootstrap, Material UI, and more..."]}
                 />
             </div>

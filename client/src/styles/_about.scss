@@ -6,10 +6,31 @@
     .img{
         width: 100%;
         height: 50vh;
+        margin-right:5%;
         img{
             width: 100%;
             object-fit:contain;
             height: 80%;
+        }
+        .resume{
+
+            span{
+                font-size: 1.5rem;
+                font-weight: 300;
+                color:white;
+            }
+
+            @media screen and (max-width: 1270px){
+                width: 100%;
+                margin-top: 7.5%;
+                span{
+                    position: absolute;
+                    line-height:300%;
+                    font-size: 1.5rem;
+                    font-weight: 300;
+                    color:white;
+                }
+            }
         }
     }
 
