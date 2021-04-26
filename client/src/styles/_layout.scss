@@ -1,9 +1,9 @@
 .App{
     .sidebar{
+        position: fixed;
         width: 16%;
         height: 100vh;
         background-color: #484a4e;
-        position: fixed;
         z-index: 11;
         border-right: 1px solid #2e344e;
         transform-origin: left;
@@ -18,6 +18,7 @@
     }
     .nav-toggle{
         @media screen and (max-width: 1000px){
+            transition: all .4s ease-in-out;
             transform: translateX(0);
         }
     }
@@ -38,36 +39,34 @@
             @media screen and (max-width: 1400px){
                 margin: 3rem 10rem;
             }
-            @media screen and (max-width: 1400px){
-                margin: 3rem 10rem;
-            }
             @media screen and (max-width: 710px){
                 margin: 2rem 3rem;
             }
         }
         @media screen and (max-width: 1000px){
-            margin-left: 0;
-            width: 100%;
+            margin:0;
+            width: 100vw;
         }
     }
 }
 
 .nav-btn{
-    position: absolute;
+    position: fixed;
     z-index: 10;
-    right: 10%;
-    top: 5%;
+    right:50px;
+    top: 5vh;
     width: 4rem;
-    height: 4rem;
+    height: auto;
     display: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #0000008c;
     cursor: pointer;
     .lines-1, .lines-2, .lines-3{
         height: .4rem;
         width: 100%;
-        background-color: #3858cc;
+        background-color: #7ab7fd;
         pointer-events: none;
         display: none;
         border-radius: 20px;
@@ -75,6 +74,7 @@
             margin-bottom: .5rem;
         }
     }
+    
     @media screen and (max-width: 1000px){
         display: block;
         .lines-1, .lines-2, .lines-3{

@@ -1,5 +1,5 @@
 import React from 'react'
-import Tittle from '../Components/Tittle'
+import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
@@ -10,9 +10,9 @@ import gamedev from '../img/game-dev.svg';
 function AboutPage() {
     return (
         <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
+            <Title title={'My Skills'} span={'My Skills'} />
             <div className="skillsContainer">
                 <SkillsSection skill={'HTML'} progress={'90%'} width={'90%'} />
                 <SkillsSection skill={'CSS'} progress={'70%'} width={'70%'} />
@@ -25,7 +25,7 @@ function AboutPage() {
                 <SkillsSection skill={'J-Query'} progress={'55%'} width={'55%'} />
             </div>
 
-            <Tittle title={'Services'} span={'Services'} />
+            <Title title={'Services'} span={'Services'} />
             <div className="servives-container">
                 <ServicesSection title={'Website Design'} 
                 text={`Knowledgeable Web Developer, using modern technologies to turn your dream website into reality:`}
