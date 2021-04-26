@@ -6,7 +6,7 @@ import { Modal, Button } from 'react-bootstrap';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { ImLibreoffice } from 'react-icons/im';
 // Resume
-import resume from '../assets/MikeTkachuk - Resume.pdf'
+import resume from '../assets/MikeTkachuk-Resume.pdf'
 import ContactPage from '../Components/ContactPage';
 
 
