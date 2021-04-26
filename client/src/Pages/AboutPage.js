@@ -3,8 +3,6 @@ import Title from '../Components/Title'
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
 
 
 function AboutPage() {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Modal, Button } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 // Icons
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
@@ -32,13 +31,13 @@ function HomePage() {
                         websites using modern technologies.
                 </p>
                     <div className="icons">
-                        <a href={resume} className="icon-holder">
+                        <a href={resume} className="icon-holder" target="_blank">
                             <ImLibreoffice className="icon resume" style = {{height:'80%'}}/>
                         </a>
-                        <a href="https://github.com/MT2314" className="icon-holder">
+                        <a href="https://github.com/MT2314" className="icon-holder" target="_blank">
                             <AiFillGithub className="icon gh" />
                         </a>
-                        <a href="https://linkedin.com/in/mike-tkachuk-82909111a" className="icon-holder">
+                        <a href="https://linkedin.com/in/mike-tkachuk-82909111a" className="icon-holder" target="_blank">
                             <AiFillLinkedin className="icon ln" />
                         </a>
                     </div>

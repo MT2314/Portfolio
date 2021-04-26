@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import about from '../img/mike.jpg';
 import { ImLibreoffice } from 'react-icons/im';
 // Resume
 import resume from '../assets/MikeTkachuk-Resume.pdf'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
 function ImageSection() {
 
@@ -12,7 +11,7 @@ function ImageSection() {
             <div className="img">
                 <img src={about} alt="" />
                     <div className = 'resume'>
-                <a href = {resume}>
+                <a href = {resume} target="_blank">
                     <ImLibreoffice size = {40}> 
                     </ImLibreoffice>
                     <span>Resume</span>
